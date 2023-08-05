@@ -1,0 +1,256 @@
+*{margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "General sans";
+
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+    background-color: black;
+    width: 100%;
+}
+#hero
+{
+    position: relative;
+    color:white;
+    width:100%;
+    height:100vh;
+    background-color: black;
+}
+#nav
+{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 20px 40px;
+    color:white
+}
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+#heading
+{
+    margin-top:90px;
+}
+#heading h1{
+    margin-left: 30px;
+    opacity:0.6;
+    
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 9vw;
+    font-weight: 900;
+}
+#heading #second{
+margin-left:230px;
+}
+.blocktext{
+    
+    width:fit-content
+}
+.blocktext h5{
+    
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: right;
+}
+#chotiheadings{
+    margin-top: 100px;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+#chotiheadings h5{
+    margin-top: 0.5vw;
+    text-align: right;
+    font-size: 1.5vw;
+}
+#herofooter{
+    padding: 0 2vw;
+    width:100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#herofooter a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#herofooter #iconset
+{
+    display: flex;
+    gap:5px;
+}
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width:25px;
+height: 25px;
+border-radius: 50%;
+background-color: #888;
+
+
+}
+#secondh{
+    color: white;
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width:100%;
+    height:100vh;
+   
+}
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:4vw 3vw;
+    padding-right: 0;
+    width:100%;
+    border-top: 1.5px solid #888;
+    margin-left: 4vw;
+    margin-right: 4vw;
+
+}
+.elem a{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+}
+
+.elemlast
+{
+    border-bottom: 1.5px solid #888;
+}
+.elem h5{
+    opacity: .8;
+    font-size: 1vw;
+}
+.elem img{
+    height: 100%;
+    z-index:999 ;
+    position: absolute;
+   
+}
+
+.img1{
+    padding-right: 11vw;
+    margin-left: 37vw;
+    
+}
+.elem h1{
+    
+    text-transform: uppercase;
+    font-size: 6vw;
+    opacity: 0.7;
+}
+.img2{
+    padding-right: 23vw;
+    margin-left: 42vw;
+}
+.img3{
+    padding-right: 11vw;
+    margin-left: 37vw;
+}
+#about{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    padding-left : 10vw;
+    padding-right:10vw;
+    padding-bottom: 10vw;
+    padding-top:25vw;
+    padding-left: 35vw;
+    width: 100%;
+    background-color: black;
+    gap:5.8vw;
+
+} 
+
+#textabout{
+    width:80%;
+}
+#textabout h4{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 3px;
+
+}
+#textabout p{
+    font-size: 1.4vw;
+    line-height: 1.3;
+    margin-bottom: 2vw;
+}
+#about img{
+    width: 250px;
+    padding-bottom: 3vw;
+}
+#textabout a{
+    color:white;
+    padding: 7px 20px;
+    border: 1.2px solid white;
+border-radius: 100px;
+text-decoration: none;
+font-size: 17px;
+
+}
+#subscribe{
+    color:white;
+    background-color: black;
+    padding-left:30px ;
+    padding-right:30px ;
+    padding-top: 5px;
+
+padding-bottom:7vw;
+}
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: .6;
+
+}
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 30px;
+}
+#footerleft{
+display: flex;
+gap:20px;
+
+}
+#footerright{
+    display: flex;
+    gap:30px;
+    
+    }
+#footer a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+
+}
